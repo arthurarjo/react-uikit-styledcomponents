@@ -9,13 +9,19 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.1",
+    "styled-system": "^5.1.5"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "eslintConfig": {
     "extends": "react-app"
