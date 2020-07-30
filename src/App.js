@@ -4,16 +4,16 @@ import Router from "./router";
 import theme from "./theme";
 import { ThemeProvider } from "styled-components";
 
-import { Reset } from "styled-reset";
+import GlobalStyles from "./GlobalStyles";
 
 function App() {
   return (
-    <div className="app">
-      <Reset />
+    <>
       <ThemeProvider theme={theme}>
         <Router />
       </ThemeProvider>
-    </div>
+      <GlobalStyles />
+    </>
   );
 }
 

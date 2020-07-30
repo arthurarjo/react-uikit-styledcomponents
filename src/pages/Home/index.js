@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Typography } from "~/components";
+import { Button, Typography, Blockquote } from "~/components";
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
       <Button variant="primary">Themed</Button>
       <Typography.Display1 color="dark500">Display 1</Typography.Display1>
       <Typography.Display2 color="dark500">Display 2</Typography.Display2>
-      <Typography.H1 color="dark500">H1 Headline</Typography.H1>
+      <Blockquote color="dark500">Blockquote</Blockquote>
     </div>
   );
 }
